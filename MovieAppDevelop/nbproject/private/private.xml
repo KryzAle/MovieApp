@@ -3,11 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Director/home.jsp</file>
-            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Socio/add.jsp</file>
-            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Socio/home.jsp</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Sexo/DeleteController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Director/HomeController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Genero/EditController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Sexo/EditController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Genero/DeleteController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Sexo/AddController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Director/DeleteController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/Director.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/Genero.java</file>
             <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Socio/HomeController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Formato/DeleteController.java</file>
             <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Director/add.jsp</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/Formato.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Formato/HomeController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Director/home.jsp</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Genero/AddController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Socio/add.jsp</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Genero/HomeController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Socio/AddController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Socio/home.jsp</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/Socio.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/SocioValidar.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Formato/EditController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Formato/AddController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Director/AddController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Sexo/HomeController.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Model/Sexo.java</file>
+            <file>file:/D:/Developer/MovieApp/MovieAppDevelop/src/java/Controller/Director/EditController.java</file>
             <file>file:/D:/Developer/MovieApp/MovieAppDevelop/web/WEB-INF/jsp/Director/edit.jsp</file>
         </group>
     </open-files>

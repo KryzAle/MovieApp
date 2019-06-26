@@ -11,14 +11,14 @@
     <body>
         <div class="container">
             <ol class="breadcrumb">
-                <li><a href="<c:url value="/socio/home.htm" />">Socios</a></li>
+                <li><a href="<c:url value="/director/home.htm" />">Director</a></li>
                 <li class="active">Agregar</li>
             </ol>
             <div class="panel panel-primary">
                 <div class="panel-heading">Formulario</div>
                 <div class="panel-body">
                    
-                        <form:form method="post" commandName="usuarios">
+                        <form:form method="post" commandName="directores">
                             <h1>Complete el formulario</h1>
                             
                             <form:errors path="*" element="div" cssClass="alert alert-danger" />
