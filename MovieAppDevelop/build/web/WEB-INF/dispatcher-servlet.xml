@@ -3,12 +3,21 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
+   <context:component-scan base-package="Controller.Socio"/>
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
+    <mvc:view-controller path="/menumru.htm" view-name="menumru"/>
+    
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
 
     <!--
@@ -20,10 +29,8 @@
         <property name="mappings">
             <props>
                 <prop key="index.htm">indexController</prop>
-                <prop key="socio/home.htm">homeController</prop>
-                <prop key="socio/add.htm">addController</prop>
-                <prop key="socio/edit.htm">editController</prop>
-                <prop key="socio/delete.htm">deleteController</prop>
+                
+                
             </props>
         </property>
     </bean>
@@ -36,10 +43,6 @@
     <!--
     The index controller.
     -->
-    <bean name="homeController" class="Controller.Socio.HomeController" />
-    <bean name="addController" class="Controller.Socio.AddController" />
-    <bean name="editController" class="Controller.Socio.EditController" />
-    <bean name="deleteController" class="Controller.Socio.DeleteController" />
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />

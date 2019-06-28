@@ -4,10 +4,11 @@ package Controller.Socio;
 import Model.Conectar;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-
+@Controller
 public class DeleteController {
     private JdbcTemplate jdbcTemplate;
     public DeleteController()
