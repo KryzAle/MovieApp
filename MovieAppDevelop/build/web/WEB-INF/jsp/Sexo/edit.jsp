@@ -1,56 +1,33 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"   %>
-<%@taglib  prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>Hola desde Spring Web MVC</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>JSP Page</title>
     </head>
     <body>
-        <div class="container">
-            <ol class="breadcrumb">
-                <li><a href="<c:url value="/home.htm" />">Listado de productos</a></li>
-                <li class="active">Editar</li>
-            </ol>
-            <div class="panel panel-primary">
-                <div class="panel-heading">Editar</div>
-                <div class="panel-body">
-                   
-                        <form:form method="post" commandName="usuarios">
-                            <h1>Complete el formulario</h1>
-                            
-                            <form:errors path="*" element="div" cssClass="alert alert-danger" />
-                            
-                            <p>
-                                <form:label path="cedula">Cedula:</form:label>
-                                <form:input path="cedula" cssClass="form-control" />
-                                
-                            </p>
-                            <p>
-                                <form:label path="nombre">Nombre:</form:label>
-                                <form:input path="nombre" cssClass="form-control" />
-                                
-                            </p>
-                            <p>
-                                <form:label path="direccion">Direccion:</form:label>
-                                <form:input path="direccion" cssClass="form-control" />
-                                
-                            </p>
-                            <p>
-                                <form:label path="telefono">Teléfono</form:label>
-                                <form:input path="telefono" cssClass="form-control" />
-                            </p>
-                            <p>
-                                <form:label path="correo">Correo electrónico</form:label>
-                                <form:input path="correo" cssClass="form-control" />
-                            </p>
-                            <hr />
-                            <input type="submit" value="Enviar" class="btn btn-danger" />
-                        </form:form>
-                </div>
+        <div class="container mt-4 col-lg-4">
+            <div class="card border-info">
+                <div class="card-header bg-info text-white">
+                <h4>ACTUALIZAR SEXO</h4>
+                </div>  
             </div>
+            
+            <div class="card-body ">
+                    <form method="POST">
+                        <label> TIPO</label>
+                        <input type="text" name="nombre" class="form-control" value="${sexo[0].SEX_NOMBRE}">
+                        <br>
+                        <div class="ml-1 form-group row">
+                            <input type="submit" value="Actualizar" class="btn btn-outline-success mt-5 col-sm-4">
+                            <div class="col-sm-3"></div>
+                        <a href="index.htm" class="btn btn-outline-warning mt-5 ml-4 col-sm-4">Regresar</a>
+
+                        </div>
+                    </form>
+                </div>
         </div>
     </body>
 </html>
